@@ -44,7 +44,7 @@ function App() {
     //     setPosts(response.json());
     //   })
     //axios.get('http://localhost:3001/api/users')
-    axios.get('http://expressapp-backend.up.railway.app/api/users')
+    axios.get('https://expressapp-backend.up.railway.app/api/users')
       //axios.get('https://jsonplaceholder.typicode.com/posts')
       // .then(response => {
       //   //console.log(response);
