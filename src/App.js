@@ -32,6 +32,7 @@ import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper
 
 
 function App() {
+  console.log("Helloo")
   const [post, setPosts] = useState([]);
   //this.APIHOSTPORT = `${process.env.NODE_APP_APIHOSTPORT}`;
   var url = `http://${process.env.NODE_APP_APIHOSTPORT}/api/users`
@@ -44,7 +45,7 @@ function App() {
     //     setPosts(response.json());
     //   })
     //axios.get('http://localhost:3001/api/users')
-    axios.get('https://expressapp-backend.up.railway.app/api/users')
+    axios.get('http://expressapp-backend.up.railway.app/api/users')
       //axios.get('https://jsonplaceholder.typicode.com/posts')
       // .then(response => {
       //   //console.log(response);
